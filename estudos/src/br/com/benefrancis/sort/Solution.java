@@ -10,6 +10,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
+import java.util.function.BiConsumer;
 
 //Complete the code
 
@@ -34,6 +35,8 @@ import java.util.Scanner;
 public class Solution {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
+		
+ 
 
 		Locale.setDefault(Locale.US);
 
