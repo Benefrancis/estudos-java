@@ -47,7 +47,8 @@ public class Exercicio1 {
 			}
 			// @formatter:off
 			// Procesamentos para ver os resultados:
-			double avg = l.stream().map(p -> p.getPrice())
+			double avg = l.stream()
+					.map(p -> p.getPrice())
 					.reduce(0.0, (x, y) -> x + y) / l.size();
 
 			System.out.println("Preço Médio: " + String.format("%.2f", avg));
