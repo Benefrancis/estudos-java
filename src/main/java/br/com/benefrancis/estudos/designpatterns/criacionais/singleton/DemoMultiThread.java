@@ -6,8 +6,8 @@ public class DemoMultiThread {
 
 	public static void main(String[] args) {
 
-		System.out.println("Se voc� vir dois valores iguais o singleton funcionou corretamente!");
-		System.out.println("Se voc� vir dois valores diferentes o singleton falhou!");
+		System.out.println("Se você vir dois valores iguais o singleton funcionou corretamente!");
+		System.out.println("Se você vir dois valores diferentes o singleton falhou!");
 
 		Thread threadFoo = new Thread(new ThreadFoo());
 		Thread threadBar = new Thread(new ThreadBar());
