@@ -1,8 +1,8 @@
 package br.com.benefrancis.estudos.designpatterns.criacionais.singleton;
 
 public final class Singleton {
-	// O campo deve ser declarado vol�til para que a trava de verifica��o dupla
-	// funcione corretamente.
+	
+	// O campo deve ser declarado volátil para que a trava de verificação dupla funcione corretamente.
 	private static volatile Singleton instance;
 
 	public String value;
